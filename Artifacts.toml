@@ -1,288 +1,591 @@
 [[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "05ffb8501abb2d4bf4b4a2a4843e663e8ea3b31d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "a97bbf960a13f6d342cbbf9b92d20d09b5cc12eb5ffd69f8d9aa4e1b55b63214"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-linux-gnu-cxx03.tar.gz"
+[[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "696750dbba418107f3189235da50b5a7904ea6ed"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "aabb967ca95e18213fff6e7b37fcca10df1a75bcc1a913bc76f8bdd78222820c"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-linux-gnu-cxx11.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "581747af55ef8ffe26a26004dac2484efc219980"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "459c2fb6eccde90137ad01c6676ba54d683c84e8918a0dc7770719cead1a642c"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f5aea44866098859f584da63e4e7a8af5492df67"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "8ae72b81e6d19964df0b5423371b8365de92c95f907f3f34232f5b08005d8f26"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+none.tar.gz"
+[[LightGBM]]
 arch = "aarch64"
-git-tree-sha1 = "e699fe078f736f8461f5528d2ef669a2de38d552"
+cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "77b974e566e6fdd221244239750d469ed52566f3"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "46d1400ab09b766a8a09740c1b4e3e6f9385eddb4138f7de48f449420e667bc0"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.aarch64-linux-gnu-cxx03-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "aarch64"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "12b657ba90ecfa8a6bb6cdabf9a73fe75b377104"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "edae963cf18b1594633e5c7b10e8fc26422fa56f30107ddefe80063e112a4aa8"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.aarch64-linux-gnu-cxx11-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f9159c1f44808ebb37511bc241342f742e991846"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "540eac3e453f23600b8c0b564a53985ca7253bc586954e00c3fc853881526957"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[LightGBM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b27a9b4ab9fe983ff8b478a8bffda91abb782692"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "aa8e5ab5af5ca5e1b073a3b4c34b8c95b6e25f18a1cd0fdc5619e414478eb4a5"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[LightGBM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f27618df1fed66125a7a3333f23b343b764b2d87"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "b3f21ccada0012815fa54abf58ad0353f6bbdd4f57361cafa189b2be7f911f75"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[LightGBM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "38b13089d5c38b0f63660ee6cb59adb2cac77f4e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "bc3629a1f1d569d605c315f694af1c15e0c508243dfaed56d252b48ec20c062c"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[LightGBM]]
+arch = "powerpc64le"
+cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e1cf6afc8a1025e1baee35da2878f244f65e6524"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "840629ad8306a5f5276150adef3b7230e928fe5965a3863ef99e4a37c5c7767e"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.powerpc64le-linux-gnu-cxx03-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "powerpc64le"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d27b7e61d122a0925b7e462f5205c3952f9e4fa1"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "1c13a72eb13e0bf10b62bb659109e84fe9e03ccc1d179c9c8e38703212905f79"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.powerpc64le-linux-gnu-cxx11-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "aeada6cf077f016df97e3e44052e69d607fc6550"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "0a9ab244b04fde91f6fd95b232cf0a6cea3c0cd1cafc789ec870c0553d72a3d2"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-linux-musl-cxx03.tar.gz"
+[[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "808b256ddeb16c1461010380f7f81b113d309a1d"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "924cd9ad25e635c02d465fd9a8d88e95bd7d84ae494ed987a5f873d49ab5f215"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-linux-musl-cxx11.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e9051f7e202fef495e1fc167f3a380a40617961c"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "761547860fc196ce389153e145862f6351f1439c41683ede8c1dab013082fdfb"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-musl-cxx03-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c17343957b9d505e0ab75272e4b189642207f53c"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "b2357b97de8d97761ea1f3db938384ab4b0eceb989615782ca699d42c57caef2"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-musl-cxx11-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "aarch64"
+cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4b424adf6ce2d6931af4d9dc365b4abe881be6a4"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "93e9c72c57f2f150b08a7d5cdb8abe985124bb6fa266024d48462fef54eb08c4"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.aarch64-linux-musl-cxx03-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "aarch64"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "88603ada36943f9e9ac416d0a05eda3bc7f1eb4d"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "7143cf941e6ce7ef6eca1c319f6e4c00ae634631cef947bc916283caad25d66b"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.aarch64-linux-musl-cxx11-cuda+none.tar.gz"
+[[LightGBM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0d9b552128b737d5d8d5859df3d9b02cbc42f4ee"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "6654ef8cfe96faf59827ca9165b338e845f5eba51b3413bc75d0897cc5fa6caf"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[LightGBM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "faaa28c6146420274f377ca92bf5e3f7b7213216"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "ad45a6bae1a949572ba98e0a642681ca9805c116db09e5255555269c4b79bb1f"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[LightGBM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "34adbea86509340733f6b7afa4ad76db7b358311"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "542b9a1d64ffa36beefa5e11b1bd02ca8f1479d9296ee7b912a57cc59045111a"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[LightGBM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "84ef9e6bcb757adcee21c5d8fc7ed4e96cbaf4ae"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "982a2d0b7a8bd0c462a1e8f0488df71f8533384d525111fc299634b9d66ba950"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+git-tree-sha1 = "41703219004bf31f6dc2dc588eda744091f19d92"
+lazy = true
 os = "macos"
 
     [[LightGBM.download]]
-    sha256 = "91b5addb33244cd3c67f481ac46609a8d98eae9943bc7922e568f37252997b18"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.aarch64-apple-darwin.tar.gz"
+    sha256 = "c4cee6e23eb296822b0042ac8a54e31ae99bd8cda2db987a9c996ba365a6eda0"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-apple-darwin.tar.gz"
 [[LightGBM]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "33b6b0a0f0b9b7d35c4ebc847a99309fefc1c18a"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "a0e2465060cd3ce8c5266df8d91125c10069ee00422cb95bb13e9d390a5dabe5"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.aarch64-linux-gnu-cxx03.tar.gz"
-[[LightGBM]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "063f18fed6615bf6526349b84cb19b61ce58fbf9"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "5ae9cf23a84a41f7da526745ffe888faaf701c1497d97f1a91e3a1c1ae3ab8fa"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.aarch64-linux-gnu-cxx11.tar.gz"
-[[LightGBM]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "15d33b309a40c65b45c29bfeae1757ccc242e5c0"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "f15722e586a8fdfdfc5eb9857fecb04799f859204b596a5e3bde1605d891b2de"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.aarch64-linux-musl-cxx03.tar.gz"
-[[LightGBM]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "05175d16078279120b2d535fb4bf2503c383cfc6"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "2742b627ad0f2fc400a9e523114784b33b6d10156e90ed481d6a7387db693cc9"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.aarch64-linux-musl-cxx11.tar.gz"
-[[LightGBM]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4314a489c1f16a67e2820a9b64325c475ccf9903"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "b88aef846e7bd80b658b1102e83a0310cb82b89f8546a4ec951e945c60de9b5e"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv6l-linux-gnueabihf-cxx03.tar.gz"
-[[LightGBM]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "81c1ff1da585286f0933d0bdb6d086f76cfe28fa"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "0f0fc8eb527ea0e6fe78b872f3365a9271028d56bde8804263672b08f72077f0"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[LightGBM]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ee748fb73655b3096353c6a70ebf6e66e89d312f"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "019c2f3fd08c35fd3d2362c897fa136f40041b486e00c1985e634800cc16aa43"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[LightGBM]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cf7e27aea9294aa7656e80f72e039df84574530d"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "965779d5002084f5c485ce518f3b5c03d19307f8e5962d3e70c403c9ddacb4fb"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[LightGBM]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d718d95ab618623bafc02eac1b2e379e4350281f"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "18d5b038fcb7d293ec6101a6e4fc39f09e47b78290a027956e5d06b10a8c8fce"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[LightGBM]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "af45343c84b6e5aaa5c88e5cd2490c0e41e52712"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "0dc8e546fb51262623ef3cc272ddedd1a711adf0fbb8ef08cabe7875c080a9a9"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[LightGBM]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2d4606b74b0b739efde0dd017a926ce3339410dd"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "f1a78652a542d0951aa1560f3764ac68dd6ea3d24754d07362a620598ffc910c"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[LightGBM]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8cda1d03216a590e09777151cf31011c63c4909e"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "76e153b1fdec6dccdf3740dd30046e83631f90d4411641b32f2a3360b2376b10"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "181d3fc314bc214766b5e410a083cdb1f6688712"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "5629ff353da3ea75929d4349323bc0a956aca0b1999e79cf261f232b4fe50d77"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-linux-gnu-cxx03.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "320f477dfbb83aa0200fcba94f8ff53f783fb13a"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "070d92fa4b6159691b67d433c1d78b8a160b9142e85f9accdc3c4dfc708a0494"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-linux-gnu-cxx11.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2cb751892384651bbfb2c50425764078eedf8b91"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "bc8b44c18bb4b2c70ac4a6a96d9ca217441535e8c59fb697b20918b62e575d3c"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-linux-musl-cxx03.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "201d3d42002f2db58cce77b3415a9ab1af4b21c4"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "67233cfebb2e90c1007935aa1fbd3eb076dc9a5400143ccb9644efc4a5be3faa"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-linux-musl-cxx11.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3ffbfd156a1ebd619891d3748dfcf09d25c80de2"
-os = "windows"
-
-    [[LightGBM.download]]
-    sha256 = "e50c63462856f0b27b95682ce40ac9cb24811cc45aeab866ee115f87bd09e174"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-w64-mingw32-cxx03.tar.gz"
-[[LightGBM]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a3083a714a18fbc47516902c60a57b2962ad68ca"
-os = "windows"
-
-    [[LightGBM.download]]
-    sha256 = "d77bd66e543a58dac9791d2159d9c58039886a48f10e9aced25da26338d85c4d"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.i686-w64-mingw32-cxx11.tar.gz"
-[[LightGBM]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "11005e99bc44d8d594c0a8d64c92e8321cfaf0bd"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "64734ac95b32acd633e7f2caeb731f0049187645239b58aeb1f7721575240a50"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[LightGBM]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bcfb4847656a7bb3ef8223cc2a6411bbf321416a"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "da98a3029e1e24d77fe00dda376d901b20fda97d28d316d7052bc2bf1bdd193c"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[LightGBM]]
-arch = "x86_64"
-git-tree-sha1 = "3fc3f65fa8c9dc80f75fcdce041da9d6207f600a"
+git-tree-sha1 = "0a2b526b64c3b6eee2f160237d8dec2e2fb95d1d"
+lazy = true
 os = "macos"
 
     [[LightGBM.download]]
-    sha256 = "f179312db3c906e6b454251200b36e4dc9f124178a5b7b52fec6215ced86e558"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-apple-darwin.tar.gz"
+    sha256 = "ee71e219e3deb8a1c4514f8b4ed0260fbeab310e3bd8fb31fde5ad891c572061"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.aarch64-apple-darwin.tar.gz"
 [[LightGBM]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "980c3da0b963ed097b95fde119250467d9289a91"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "a2656dd8d40ba1b99f68109b07965b007b499dd5e768f4ad498e214795189432"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-linux-gnu-cxx03.tar.gz"
-[[LightGBM]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "540bed0735c8679d69fe1bd02524a14e8b8a10f2"
-libc = "glibc"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "9819b1b9045791e22a1dabd9367686dd924c7c826ffbef8464f552cdb4b294e5"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-linux-gnu-cxx11.tar.gz"
-[[LightGBM]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "30bc43bd067cf56b8ad40c36f42416757a968a51"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "983ab2b56fe3c5953fb0eb0fbc2a33433e9550523d048b2a897e162079a42eb6"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-linux-musl-cxx03.tar.gz"
-[[LightGBM]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "f03e841577755486e1f50ba634398d9b3266be56"
-libc = "musl"
-os = "linux"
-
-    [[LightGBM.download]]
-    sha256 = "592fccc6177aed4f371f739a55684a6facb5242a57b524e289deac293f3c8902"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-linux-musl-cxx11.tar.gz"
-[[LightGBM]]
-arch = "x86_64"
-git-tree-sha1 = "188b878aee31ddba984bede0a78ffb69180a4cd7"
+git-tree-sha1 = "77cd93f608ab3b2265eb009e2b777714f5320eb3"
+lazy = true
 os = "freebsd"
 
     [[LightGBM.download]]
-    sha256 = "647a1324d04d6c70cd8880db6af57247b4327406957b5c7bda5d3110f9bbb164"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "cc9c7474cb20e32e0884d92ebd0b05cf1ec1e0fb3b0a265cbb3c0ea79e634b21"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-unknown-freebsd.tar.gz"
+[[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d48038aee70e4e794bd39fc82965b26e4062af1c"
+lazy = true
+os = "windows"
+
+    [[LightGBM.download]]
+    sha256 = "4abf6eeed96a3adca085d56f16280f52bcb7e509f9db5b796560ca561d164e9d"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-w64-mingw32-cxx03.tar.gz"
+[[LightGBM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "92de767722da74d19b95a4d690515e011f1e3433"
+lazy = true
+os = "windows"
+
+    [[LightGBM.download]]
+    sha256 = "6c6238d4b035582d80c8c1c1768985485ff58c06c66244a0621512c3dce311f9"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.i686-w64-mingw32-cxx11.tar.gz"
 [[LightGBM]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6e874b75eb70a9a58154d8ddbafda70ac3035f3f"
+git-tree-sha1 = "7ad2635563e63807afdf13ef5591db31da70f5cf"
+lazy = true
 os = "windows"
 
     [[LightGBM.download]]
-    sha256 = "bd7709a58c8b133600607bd05d805233e959dd8c04f63b758d9805ffb4e5472a"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "d7b0fd6c59f285c91fb2c3d012ddbd08e50fecf6b05659e343185e35f9fbc526"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[LightGBM]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e2f678f4443812f4ae2d6676164ab14a28feb126"
+git-tree-sha1 = "3b2553791485801c70bfe7c055cf3503fac6c9ce"
+lazy = true
 os = "windows"
 
     [[LightGBM.download]]
-    sha256 = "c9d5c413538349dcb85b8169e77edcbceddbb7f7877093eb7451df9ca4bc8638"
-    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v3.3.5+1/LightGBM.v3.3.5.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "0d2dcb15539a1b6038016386f26aecd208bc090eb56c006e64a1c9ed760eedf4"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-w64-mingw32-cxx11.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.4"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e5bf7caac39f4194a2f7e4a00c6be505799164d7"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "d437cad42ee2360643f5ad9660b1c2eeefd0c9386960a5dceb20cc9a435fe0b8"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+11.4.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "869743bc5848ea30fba7cd9e1621497897fc0acf"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "840ffc7250b7adf1a7c67573254d58af58c1d12c68605bd6e6a94c2b34f99456"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+11.4.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.5"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9f714c4d998d24f7b80509ed2ace2b07d45e35d9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "c8f0f70b2ea75799d9ad8eab3fddb96190287112adcd35313d020da287eaffb2"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+11.5.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.5"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f4ce8d8491026a8d77f1096c151149a80fe0421c"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "fe16107e28c7622f688a0c5fe3a6fc4faf3d16fc93f547e67560e3dfcbbdde06"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+11.5.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.6"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "00ab5d16c62779c8d97b03ec52fd139eefd63f89"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "e5c8a929385581d20dc7f31c135efdb58bff98fa2eab0d4a3945d02489faf479"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+11.6.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.6"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "be513489154d3f71aeb50bf5a7569e13d8bd4f01"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "9331d39e8fbe307340fae26b8fe2b5460b3ea8110e6a10434c9ba9135f73ff0f"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+11.6.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.7"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4b77ee2f0d89fadfa048fa00a4db83170ebcf4b1"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "854331a76ccf844bd5a5b68590b528559929591b7bef000c639a587c1e5eb5d3"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+11.7.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.7"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "792235cedd7496e56273d63aed3b101dc9b94b52"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "b00550c5e6dc44f708d9e2af1587c89826c365e1db47a3284a5228ebc612fee7"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+11.7.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.8"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d286e59328ce54ee92c5ee62d3cd215c0ccb2f4b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "1aed6cf387ba330f8736c60f000ac859ab800a67ba880edbbfa3c04878ffa831"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+11.8.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "11.8"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "480dbcc44f9af50c5381e40f7da9d9102bf540e3"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "8ca35c08246787480a6a1e7c1a20079f1a8134b7aa2826ad4413f8d9cb86b354"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+11.8.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.0"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0fdb4733be67e7d8eeb49110e7c72162a296db02"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "d2060ba3d86deda53a4fd5f017ff76fbbe0c9db52b2ffd1c8af1ab52bf254881"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.0.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ffadbd9660a6a2521296983f1250561a125347fa"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "e287d6277679832911f23b0c79130f834644ffaaf4962e58e1f5041e7485e5a6"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.1"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5fcebf487470c7e487defae783ee04ffe663bd70"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "8b945da2f01bc357af8e4c5fcafa8abd01155c26b7038c8b2658c7eb339ceb33"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.1.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.1"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9f58d97bfd8becbd730d5d52a2a2a9f367147185"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "a2351a84d46719a9f7ed9b27e2f273b95c353739df14377be2e993a83d654061"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.1.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.2"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a05f0751c69ec43b2460787b4e1e7807e256e57a"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "be984c8a05b2dd956b2092a1f791c2070936b6e4b6635a0fe879b98f1b8378aa"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.2.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.2"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1b89a86bed51297f1c3021d9a2d17c0f9e9c5822"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "77ee7a9d250d6801fc21097d8b2e9fc6483b2b6f1ef212b0b58f205b58e3655e"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.3"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "083f45c71b0a1324ab7802e6344f4bde076864e4"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "b6605531fb33b89f8ef5a7bab68a0f702bff1a636cf6bd48c585c735e8a74d7e"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.3.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.3"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1ac1866cad64acbb578d5d6d7f63301745d7f3e9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "e5f19f2ab60c8033fd682767a41726fea3d923cd1b50fe28979434035becbb05"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.3.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.4"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a05b6362a58e8971af9d956ac6de750f4d60b3d5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "43c565a487d8cd617d9846990622cf24bb0ab76068096c6d11130889c15c4c0e"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.4.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "76e2c28bdce10f205e88969fe528b9bcd986e613"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "662a593585e482004c5bc3af3b442051a1ed66428e607d40b060daebff53bc8e"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.4.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.5"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f3d30ea24abd997af5fcb248a09b5b47689ea3cc"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "c220a3a7dac6f332c819b3406b32b3450426d4d2082f1cebe2da72063d7562f0"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx03-cuda+12.5.tar.gz"
+[[LightGBM]]
+arch = "x86_64"
+cuda = "12.5"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5b89d16b8977b926223156a29922ba7270d1b1b6"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LightGBM.download]]
+    sha256 = "6e119d80a1703d5ef1897fce858d812fff5286c9e68ff823e8f45e94273aa5ba"
+    url = "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.0+0/LightGBM.v4.3.0.x86_64-linux-gnu-cxx11-cuda+12.5.tar.gz"
